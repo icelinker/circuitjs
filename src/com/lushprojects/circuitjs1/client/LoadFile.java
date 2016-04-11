@@ -46,7 +46,7 @@ public class LoadFile extends FileUpload implements  ChangeHandler {
 	LoadFile(CirSim s) {
 		super();
 		sim=s;
-		this.setName("µº»Î");
+		this.setName("Import");
 		this.getElement().setId("LoadFileElement");
 		this.addChangeHandler(this);
 		this.addStyleName("offScreen");

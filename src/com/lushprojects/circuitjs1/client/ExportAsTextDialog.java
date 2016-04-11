@@ -44,8 +44,8 @@ public class ExportAsTextDialog extends DialogBox {
 		SafeHtml html;
 		vp=new VerticalPanel();
 		setWidget(vp);
-		setText("到处为文本");
-		vp.add(new Label("与此电路对应的文本..."));
+		setText("Export as Text");
+		vp.add(new Label("Text file for this circuit is..."));
 //		vp.add(tb = new RichTextArea());
 //		html=SafeHtmlUtils.fromString(s);
 //		html=SafeHtmlUtils.fromTrustedString(html.asString().replace("\n", "<BR>"));

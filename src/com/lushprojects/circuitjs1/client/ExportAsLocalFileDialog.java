@@ -35,7 +35,7 @@ public class ExportAsLocalFileDialog extends DialogBox {
 	
 	static public final native boolean downloadIsSupported() 
 	/*-{
-		return !!(("下载" in $doc.createElement("a")));
+		return !!(("download" in $doc.createElement("a")));
 	 }-*/;
 	
 	static public final native String getBlobUrl(String data) 
@@ -54,8 +54,8 @@ public class ExportAsLocalFileDialog extends DialogBox {
 		String url;
 		vp=new VerticalPanel();
 		setWidget(vp);
-		setText("作为本地文件导出");
-		vp.add(new Label("单击此链接下载设计文件"));
+		setText("Export as Local File");
+		vp.add(new Label("Click on the link below to save your circuit"));
 		url=getBlobUrl(data);
 		a=new Anchor("my circuit.txt", url);
 		a.getElement().setAttribute("Download", "my circuit.txt");

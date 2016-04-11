@@ -40,8 +40,8 @@ public class ExportAsUrlDialog extends DialogBox {
 		Label la1, la2;
 		vp=new VerticalPanel();
 		setWidget(vp);
-		setText("导出为URL");
-		vp.add(new Label("与此电路对应的URL为..."));
+		setText("Export as URL");
+		vp.add(new Label("URL for this circuit is..."));
 		if (s.length()>2000) {
 			vp.add( la1= new Label("Warning: this URL is longer than 2000 characters and may not work in some browsers.", true));
 			la1.setWidth("300px");
