@@ -14,6 +14,10 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# vim cache
+*.*~
+
+
 # Windows Installer files
 *.cab
 *.msi
