@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="circuitjs1">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/war"/>
+        <property name="context-root" value="circuitjs1"/>
+        <property name="java-output-path" value="/circuitjs1/war/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
