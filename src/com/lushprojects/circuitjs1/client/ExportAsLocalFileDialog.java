@@ -54,7 +54,7 @@ public class ExportAsLocalFileDialog extends DialogBox {
 		String url;
 		vp=new VerticalPanel();
 		setWidget(vp);
-		setText("Export as Local File");
+		setText("导出本地文件");
 		vp.add(new Label("Click on the link below to save your circuit"));
 		url=getBlobUrl(data);
 		a=new Anchor("my circuit.txt", url);
